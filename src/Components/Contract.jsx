@@ -34,7 +34,7 @@ const Contract = () => {
                     </div>
                     <div>
                         <div className="flex items-center space-x-2">
-                            <LuSend className="text-white text-2xl" />
+                            <LuSend className="text-2xl" />
                             <h3 className='text-2xl font-bold'>Send Your Email</h3>
                         </div>
                         <div className="flex items-center">

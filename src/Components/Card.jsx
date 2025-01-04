@@ -2,14 +2,15 @@ import { Link } from "react-router-dom";
 import './index/index.css'
 
 const Card = ({ project }) => {
-    const {id,image,name} = project
+    const { id, image, name } = project
     return (
-        <div className="card bg-base-100 shadow-xl" data-aos="fade-up">
-            <div className="px-10 pt-10">
+        <div className="card group bg-base-100 shadow-xl" data-aos="fade-up">
+            <div className="">
                 <img
                     src={image}
                     alt="image"
-                    className="rounded-xl" />
+                    className="rounded-xl group-hover:scale-105 
+              transition" />
             </div>
             <div className="card-body items-center text-center">
                 <h2 className="card-title text-center font-bold text-2xl">{name}</h2>

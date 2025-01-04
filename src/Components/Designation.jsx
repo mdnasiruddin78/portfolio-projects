@@ -1,9 +1,10 @@
-import image from '../assets/image-modified.png';
+import image from '../assets/profile.jpg';
 import facebook from '../assets/facebook.webp';
 import gmail from '../assets/gmail.webp';
 import github from '../assets/github.png';
 import messenger from '../assets/messenger.png';
 import './index/index.css';
+
 
 const Designation = () => {
     return (
