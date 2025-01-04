@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import './index/index.css'
 
 const Card = ({ project }) => {
     const {id,image,name} = project
@@ -19,7 +19,7 @@ const Card = ({ project }) => {
                     } */}
                 </div>
                 <div className="card-actions">
-                    <Link to={`/projectDetail/${id}`} className='btn px-7 rounded-full bg-[#112A46] text-white'>View Details </Link>
+                    <Link to={`/projectDetail/${id}`} className='btn btn-grad btn-grad btn-grad:hover'>View Details </Link>
                 </div>
             </div>
         </div>
