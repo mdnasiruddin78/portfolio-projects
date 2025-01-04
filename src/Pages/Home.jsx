@@ -1,5 +1,6 @@
 import Designation from "../Components/Designation";
 import Knowaboutme from "../Components/Knowaboutme";
+import Projects from "../Components/Projects";
 import Skill from "../Components/Skill";
 
 
@@ -14,6 +15,9 @@ const Home = () => {
             </section>
             <section>
                 <Skill></Skill>
+            </section>
+            <section>
+                <Projects></Projects>
             </section>
         </div>
     );
