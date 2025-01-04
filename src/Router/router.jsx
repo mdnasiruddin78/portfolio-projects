@@ -4,6 +4,7 @@ import {
 import Mainlaiout from "../Mainlayout/Mainlaiout";
 import Error from "../Pages/Error";
 import Home from "../Pages/Home";
+import ProjectsDetails from "../Pages/ProjectsDetails";
 
 
   const router = createBrowserRouter([
@@ -16,6 +17,11 @@ import Home from "../Pages/Home";
           path: '/',
           element: <Home></Home>,
         },
+        {
+          path: '/projectDetail/:id',
+          element: <ProjectsDetails></ProjectsDetails>,
+          loader: () => fetch(`/projects.json`)
+        }
       ]
     },
   ]);

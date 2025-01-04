@@ -1,3 +1,4 @@
+import Contract from "../Components/Contract";
 import Designation from "../Components/Designation";
 import Knowaboutme from "../Components/Knowaboutme";
 import Projects from "../Components/Projects";
@@ -18,6 +19,9 @@ const Home = () => {
             </section>
             <section>
                 <Projects></Projects>
+            </section>
+            <section>
+                <Contract></Contract>
             </section>
         </div>
     );
