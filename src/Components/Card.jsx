@@ -15,11 +15,6 @@ const Card = ({ project }) => {
             </div>
             <div className="card-body items-center text-center">
                 <h2 className="card-title text-center font-bold text-2xl">{name}</h2>
-                <div className='text-gray-500'>
-                    {/* {
-                        card.EcoFriendlyFeatures.map((e, idx) => <ul key={idx}><li>{e}</li></ul>)
-                    } */}
-                </div>
                 <div className="card-actions">
                     <Link to={`/projectDetail/${id}`} className='btn btn-grad btn-grad btn-grad:hover'>View Details </Link>
                 </div>

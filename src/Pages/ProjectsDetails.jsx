@@ -19,8 +19,8 @@ const ProjectsDetails = () => {
                 <div className='lg:flex lg:justify-between'>
                     <div className='space-y-4'>
                         <h2 className="card-title text-xl"><span className='font-bold'>Projects Title:</span> {name}</h2>
-                        <p className='text-xl'><span className='font-bold'>live_link:</span> {live_link}</p>
-                        <p className='text-xl'><span className='font-bold'>github_link:</span> {github_link}</p>
+                        <p><a href={live_link} target="_blank" rel="noreferrer noopener"><span className='font-bold'>live_link:  </span>Click to See live Website</a></p>
+                        <p><a href={github_link} target="_blank" rel="noreferrer noopener"><span className='font-bold'>github_link:  </span>Click to See github Code</a></p>
                         <p className='text-xl'><span className='font-bold flex items-center'> challenges: </span> {challenges}</p>
                         <p className='text-xl'><span className='font-bold'>shortcoming_of_the_projects: </span> {shortcoming_of_the_projects}</p>
                         <p className='text-xl'><span className='font-bold'>thinking_and_improving:</span> {thinking_and_improving}</p>

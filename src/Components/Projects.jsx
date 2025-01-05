@@ -14,7 +14,7 @@ const Projects = () => {
 
     return (
         <div>
-            <h3 className="text-2xl font-bold text-center">My Projects</h3>
+            <h3 className="text-2xl font-bold text-center mb-5">My Projects</h3>
             <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
                 {
                     projects.map(project => <Card key={project.id} project={project}></Card>)

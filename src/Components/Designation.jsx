@@ -13,9 +13,9 @@ const Designation = () => {
                 <h3 className="text-4xl font-bold lg:text-left text-center">Junior Web Developer</h3>
                 <p className="text-gray-500 text-xl lg:text-left text-center">Welcome! I’m MD.NASIR UDDIN ANIK, a dedicated junior web developer focused on creating visually appealing, highly functional, and user-centered websites. My mission is to deliver seamless digital experiences that leave a lasting impression. Let’s build something remarkable together.</p>
                 <div className='flex space-x-2 items-center lg:justify-start justify-center'>
-                    <img className='w-[60px] rounded-full cursor-pointer' src={facebook} alt="" />
+                    <a href='https://www.facebook.com/profile.php?id=100056252312818' target='_blank'><img className='w-[60px] rounded-full cursor-pointer' src={facebook} alt="" /></a>
                     <img className='w-[70px] h-[70px] rounded-full cursor-pointer' src={gmail} alt="" />
-                    <img className='w-[50px] h-[50px] rounded-full cursor-pointer' src={github} alt="" />
+                    <a href='https://github.com/mdnasiruddin78' target='_blank'><img className='w-[50px] h-[50px] rounded-full cursor-pointer' src={github} alt="" /></a>
                     <img className='w-[60px] rounded-full cursor-pointer' src={messenger} alt="" />
                 </div>
                 <div className='flex lg:justify-start justify-center'>
@@ -27,6 +27,6 @@ const Designation = () => {
             </div>
         </div>
     );
-};
+};       
 
 export default Designation;
