@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import './index/index.css'
 
+
 const Card = ({ project }) => {
     const { id, image, name } = project
     return (
