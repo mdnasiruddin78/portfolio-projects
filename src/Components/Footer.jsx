@@ -2,15 +2,15 @@ import facebook from '../assets/facebook.webp';
 import gmail from '../assets/gmail.webp';
 import github from '../assets/github.png';
 import messenger from '../assets/messenger.png';
+import './index/index.css';
 
 
 const Footer = () => {
     return (
         <footer className="lg:flex md:flex justify-around bg-[#222222] text-white text-center p-4">
             <nav className='flex flex-col space-y-3'>
-                <h6 className="footer-title text-xl">WORK-SERVICE</h6>
-                <a className="link link-hover">Home</a>
-                <a className="link link-hover">All Services</a>
+            <h6 className="footer-title text-xl">GO-TO</h6>
+            <a href='#designation'><button className="btn btn-grad btn-grad btn-grad:hover">Click-Me</button></a>
             </nav>
             <nav className='flex flex-col space-y-3'>
                 <h6 className="footer-title text-xl">DESCRIPTION</h6>

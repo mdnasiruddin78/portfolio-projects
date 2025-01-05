@@ -8,7 +8,7 @@ import './index/index.css';
 
 const Designation = () => {
     return (
-        <div className="grid lg:grid-cols-2 grid-cols-1 gap-4">
+        <div id="designation" className="grid lg:grid-cols-2 grid-cols-1 gap-4">
             <div className="col-span-1 space-y-3">
                 <h3 className="text-4xl font-bold lg:text-left text-center">Junior Web Developer</h3>
                 <p className="text-gray-500 text-xl lg:text-left text-center">Welcome! I’m MD.NASIR UDDIN ANIK, a dedicated junior web developer focused on creating visually appealing, highly functional, and user-centered websites. My mission is to deliver seamless digital experiences that leave a lasting impression. Let’s build something remarkable together.</p>
